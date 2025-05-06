@@ -58,7 +58,7 @@ $members = $data['items'] ?? [];
                     <tr>
                         <td><?= htmlspecialchars($member['nama']) ?></td>
                         <td><?= htmlspecialchars($member['alamat']) ?></td>
-                        <td><?= htmlspecialchars($member['no_hp']) ?></td>
+                        <td><?= htmlspecialchars($member['no_telepon']) ?></td>
                         <td><?= htmlspecialchars($member['tanggal_daftar']) ?></td>
                     </tr>
                 <?php endforeach; ?>
